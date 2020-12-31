@@ -6,9 +6,17 @@ This repository is the content of my ````$HOME/.doom`` directory.
 
 It is intended to be portable to all of the machines on which I use Emacs.
 
-Setting up the Doom dependencies on a Mac using homebrew (which is what I did)
-is discussed at
-https://github.com/hlissner/doom-emacs/blob/develop/docs/getting_started.org#with-homebrew
+Initial setup
+=============
+
+Copy aside the old ``.emacs.d`` directory, if necessary:
+
+.. code:: shell
+
+  $ mv ~/.emacs.d ~/.emacs.d.old
+
+Then set up the Doom dependencies (since I'm on a Mac, I use homebrew, as discussed at
+https://github.com/hlissner/doom-emacs/blob/develop/docs/getting_started.org#with-homebrew):
 
 .. code:: shell
 
@@ -19,7 +27,7 @@ https://github.com/hlissner/doom-emacs/blob/develop/docs/getting_started.org#wit
   $ # Installs clang
   $ xcode-select --install
 
-(I went with emacs-plus as recommended):
+Install an appropriate Emacs - I went with emacs-plus as recommended:
 
 .. code:: shell
 
@@ -34,7 +42,7 @@ Once that is done, put this repository in place:
   $ cd ~
   $ git clone git@github.com:tibs/dotDoom.git .doom.d
 
-(this is so that the next step won't overwrite it).
+(this is done now so that the next step won't overwrite it).
 
 Then follow
 https://github.com/hlissner/doom-emacs/blob/develop/docs/getting_started.org#doom-emacs
@@ -47,17 +55,18 @@ and install Doom Emacs itself:
 
 See the rest of https://github.com/hlissner/doom-emacs for lots of other information.
 
--------------
+Other stuff
+===========
 
-Also see:
+Also in this directory:
 
 * history.rst_ which describes my initial setting up of Doom
 * emacs-notes.rst_ which contains all the (unsorted!) Emacs notes I've been
   collecting over the last few years
 
-Also, see https://github.com/tibs/dotEmacs which is/was my original repository
-of shared Emacs stuff, specifically, my old ``.emacs.d/init.el`` file in
-``dot.emacs.d/init.el``
+And see https://github.com/tibs/dotEmacs which is/was my original repository
+of shared Emacs stuff, specifically cotnaining my old ``.emacs.d/init.el``
+file in ``dot.emacs.d/init.el``
 
 .. _history.rst: history.rst
 .. _emacs-notes.rst: emacs-notes.rst
