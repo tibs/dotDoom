@@ -289,22 +289,22 @@
 ;; Q q doesn't seem to exist for paragraph filling
 ;; (I think in vim I got it by doing ``map Q gq``?)
 ;; Borrow the following from aquamacs (it's fairly obvious):
-;(defun fill-paragraph-or-region (&optional justify)
-;  "Fill paragraph or region (if any).
-;When no region is defined (mark is not active) or
-;`transient-mark-mode' is off, call `fill-paragraph'.
-;Otherwise, call `fill-region'.
-;If `word-wrap' is on, and `auto-fill-mode off, call
-;`unfill-paragraph-or-region' instead."
-;  (interactive "P")
-;  (if (and word-wrap (not auto-fill-function))
-;      (call-interactively 'unfill-paragraph-or-region)
-;    (if (and mark-active transient-mark-mode)
-;        (call-interactively 'fill-region)
-;      (call-interactively 'fill-paragraph))))
+(defun fill-paragraph-or-region (&optional justify)
+  "Fill paragraph or region (if any).
+When no region is defined (mark is not active) or
+`transient-mark-mode' is off, call `fill-paragraph'.
+Otherwise, call `fill-region'.
+If `word-wrap' is on, and `auto-fill-mode off, call
+`unfill-paragraph-or-region' instead."
+  (interactive "P")
+  (if (and word-wrap (not auto-fill-function))
+      (call-interactively 'unfill-paragraph-or-region)
+    (if (and mark-active transient-mark-mode)
+        (call-interactively 'fill-region)
+      (call-interactively 'fill-paragraph))))
 
 ;; and just define the key sequence we want
-;(define-key evil-normal-state-map (kbd "Q q") 'fill-paragraph-or-region)
+(define-key evil-normal-state-map (kbd "Q q") 'fill-paragraph-or-region)
 
 ;; Note that the default paragraph fill in Emacs appears to operate rather
 ;; later than in Vim - i.e., when a whole word has occurred past the fill
@@ -379,7 +379,7 @@
     "%d"
     (if (memq n '(11 12 13)) "th"
       (let ((last-digit (% n 10)))
-        (case last-digit
+        (cl-case last-digit
           (1 "st")
           (2 "nd")
           (3 "rd")
