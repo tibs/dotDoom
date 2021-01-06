@@ -107,6 +107,12 @@
 (define-key key-translation-map [(meta ?2)] [?€])
 (define-key key-translation-map [(meta ?3)] [?#])
 
+;; I should perhaps use map! for those - see
+;; https://github.com/hlissner/doom-emacs/blob/develop/docs/api.org
+;; and in particular the section starting "These are side-by-side comparisons,
+;; showing how to bind keys with and without map!", for how to bind keys with
+;; map!
+
 ;; I want ``_'' to be treated as a word character, by default
 ;; The Doom FAQ says I just need to do:
 (modify-syntax-entry ?_ "w")
@@ -304,7 +310,11 @@ If `word-wrap' is on, and `auto-fill-mode off, call
       (call-interactively 'fill-paragraph))))
 
 ;; and just define the key sequence we want
-(define-key evil-normal-state-map (kbd "Q q") 'fill-paragraph-or-region)
+(map! "Q q" #'fill-paragraph-or-region)
+
+;; NB: see https://github.com/hlissner/doom-emacs/blob/develop/docs/api.org
+;; and in particular the section starting "These are side-by-side comparisons,
+;; showing how to bind keys with and without map!", for how to bind keys
 
 ;; Note that the default paragraph fill in Emacs appears to operate rather
 ;; later than in Vim - i.e., when a whole word has occurred past the fill

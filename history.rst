@@ -278,3 +278,20 @@ According to the "getting stated" guide:
    doom emacs "error in post-command hook ivy--queue-exhibit void-function case
 
 .. _`emacs-plus`: https://github.com/d12frosted/homebrew-emacs-plus
+
+And now at work
+===============
+
+Over Christmas break, I put all of this on github and tidied it up a bit.
+
+And consequently I'm now using Doom Emacs at work as well.
+
+I had two things to fix:
+
+* ``Q q`` - I'd forgotten that this was my own kebinding, following vim, and
+  it was basically just a matter of uncommenting the code in my ``config.el``
+* ``open-logfile`` - one of the functions inside that was using ``case`` and
+  for doom I need to use ``cl-case``
+
+Also, it looks as if ``SPC f r`` is indeed now working with the latest
+versions of everything, so that's nice.
