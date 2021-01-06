@@ -310,7 +310,11 @@ If `word-wrap' is on, and `auto-fill-mode off, call
       (call-interactively 'fill-paragraph))))
 
 ;; and just define the key sequence we want
-(map! "Q q" #'fill-paragraph-or-region)
+(map! :map evil-normal-state-map
+      "Q q" #'fill-paragraph-or-region)
+;; I used to do
+;; (define-key evil-normal-state-map (kbd "Q q") 'fill-paragraph-or-region)
+
 
 ;; NB: see https://github.com/hlissner/doom-emacs/blob/develop/docs/api.org
 ;; and in particular the section starting "These are side-by-side comparisons,
