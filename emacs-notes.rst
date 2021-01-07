@@ -3122,6 +3122,37 @@ Hmm. I need a plan...
   
 -----------
 
+Notes on using doom
+===================
+
+In no particular order:
+
+* For windows, instead of CTRL-W <thing>, I can do SPACE w <thing>. This is
+  so nice - it means no more CTRL-W !
+
+  (I really need to learn to use SPACE as the leader key)
+
+* For some reason, when typing reStructuredText in a list (like this) if I
+  hit RETURN then it moves me to the left margin, not indented for the next
+  line of the list. I assume I've got something somewhere misconfigured.
+
+The following look like they have useful information:
+
+* https://noelwelsh.com/posts/2019-01-10-doom-emacs.html - I think the "use
+  the develop branch" is now out-of-date, but the hints on key sequences and
+  common tasks look interesting/useful.
+
+  At the end it says:
+
+    I learned most of what I know about Doom by reading through the `default
+    keybindings`_ and looking up commands I didn’t recognise. It’s easy to
+    experiment in a scratch buffer to figure out what a command does.
+
+  which sounds like sensible advice in several ways.
+
+.. _`default keybindings`: https://github.com/hlissner/doom-emacs/
+   blob/develop/modules/config/default/+evil-bindings.el
+
 Videos to watch
 ===============
 I have too many of these
