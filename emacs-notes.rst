@@ -3119,7 +3119,53 @@ using emacs-plus, which I'd been wondering about (elsewhere above) anyway.
 * https://github.com/d12frosted/homebrew-emacs-plus
 
 Hmm. I need a plan...
-  
+
+2021-01-14
+==========
+
+Interesting from slack:
+
+* "in any buffer you can use C-z  to toggle between evil-mode and standard
+  emacs keybindings" - I think I knew that, and indeed I think I "fell over"
+  it just recently!
+
+* "in any buffer you can M-: major-mode  to get the name of the current major
+  mode" - but I definitely didn't know this one
+
+2021-01-19
+==========
+
+* https://irreal.org/blog/?p=9418 - "Yesterday’s Date" - or, rather, the date
+  from N days ago. Specific code::
+
+    1: (defun jcs-yesterday (days)
+    2:   "Insert yesterday's date."
+    3:   (interactive "p")
+    4:   (let ((ts (decode-time)))
+    5:     (setf (nth 3 ts) (- (nth 3 ts) (if days days 1)))
+    6:     (insert (format-time-string "%Y-%m-%d" (apply #'encode-time ts)))))
+
+* https://github.com/peterwu/plus-minus - "This package attempts to offer
+  plus-minus operations on numbers in a similar fashion to how Vim handles
+  them."
+
+* https://emacsredux.com/blog/2020/12/10/essential-magit-file-commands/ -
+  "Essential magit file commands"
+
+* https://github.com/alphapapa/unpackaged.el - "A collection of useful Emacs
+  Lisp code that isn’t substantial enough to be packaged."
+
+* https://www.youtube.com/playlist?list=PLhXZp00uXBk4np17N39WvB80zgxlZfVwj -
+  DoomCasts: Emacs Doom Screencasts. "In this series I will go over most of
+  the packages included in Emacs Doom by default."
+
+* Someone answered "are there any other editors as programmable as emacs" by
+  pointing to https://github.com/lem-project/lem, which is written in Common
+  Lisp. Appears to have at least some vi[m] compatibility, from the
+  ``lem-vi-mode`` entries in the example init.lisp files. Some of the wiki
+  pages seem to be in Japanese. Unsurprisingly, the first aim seems to be to
+  able to edit Common Lisp...
+
 -----------
 
 Notes on using doom
