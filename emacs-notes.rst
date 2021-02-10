@@ -3166,6 +3166,34 @@ Interesting from slack:
   pages seem to be in Japanese. Unsurprisingly, the first aim seems to be to
   able to edit Common Lisp...
 
+2021-02-08
+==========
+
+* https://lisp-journey.gitlab.io/blog/state-of-the-common-lisp-ecosystem-2020/
+  - State of the Common Lisp ecosystem, 2020 (as of Jan/Feb 2021)
+
+  Opinionated, and looks very good.
+
+* https://github.com/karthink/project-x - "Project-X adds a couple of
+  convenience features for Emacs’ project.el library."
+
+  * Recognize any directory with a .project file as a project. Also works if
+    any parent directory has this file.
+  * Save and restore project files and window configurations across sessions.
+
+* https://www.rousette.org.uk/archives/using-the-tab-bar-in-emacs/ - Using the
+  tab-bar in Emacs (from "but she's a girl...")
+
+* https://countvajhula.com/2021/01/21/vim-tip-of-the-day-a-series/ - Vim Tip
+  of the Day - a series. This is the top page for the series. Note that it
+  explicitly also attempts to work with Evil.
+
+2021-02-09
+==========
+
+* https://github.com/sharkdp/fd#integration-with-other-programs - using ``fd``
+  with other programs, such as emacs
+
 -----------
 
 Notes on using doom
@@ -3260,7 +3288,9 @@ even `Lisp Based Erlang`_ (and see https://github.com/llaisdy/beam_languages
 for more languages on the Erlang VM, including other lisps, and Gleam_ if one
 wants static typing).
 
-So that's SBCL (CommonLisp), Elixir (on Erlang) *and* Rust on my list...
+So that's SBCL (CommonLisp), Elixir (on Erlang) *and* Rust on my list.
+And, of course, Haxe.
+
 
 And somehow I still want to play with Racket_ as well, even though I know I
 probably shouldn't...
@@ -3285,3 +3315,4 @@ Even more Lisp links:
 .. _Gleam: https://gleam.run/
 .. _Racket: https://racket-lang.org/
 .. _`Practical Common Lisp`: http://www.gigamonkeys.com/book/
+.. _Haxe: https://haxe.org/
