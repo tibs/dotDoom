@@ -345,6 +345,11 @@ If `word-wrap' is on, and `auto-fill-mode off, call
 ;  :ensure t)
 ;(add-to-list 'auto-mode-alist '("\\.epub\\'" . nov-mode))
 
+;; From https://irreal.org/blog/?p=9482 (Fixing Two Spaces Between Sentences),
+;; how to tell Emacs that I actually want a *single* space after the end of
+;; a sentence, instead of two.
+(setq sentence-end-double-space nil) ; <period> <single space> ends sentence
+
 ;; ===============================================================
 ;;; Modeline
 

@@ -3194,6 +3194,26 @@ Interesting from slack:
 * https://github.com/sharkdp/fd#integration-with-other-programs - using ``fd``
   with other programs, such as emacs
 
+2021-02-15
+==========
+
+* https://irreal.org/blog/?p=9482 - Fixing two spaces between sentences.
+  Actually interesting because it mentions::
+
+    (setq sentence-end-double-space nil) ;period single space ends sentence
+
+  which is the way to tell Emacs that there should be *one* space after the
+  end of a sentence.
+
+  (I've added that to my config.el)
+
+* https://www.dr-qubit.org/Descent_into_Evil.html - Descent into Evil, 13
+  February 2021 - start of a blog series about deciding to use Evil, as an
+  experienced Emacs user.
+
+* https://github.com/tslilc/siege-mode - An emacs minor mode to surround the
+  region with smart delimiters interactively.
+
 -----------
 
 Notes on using doom
