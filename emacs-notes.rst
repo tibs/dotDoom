@@ -3298,10 +3298,23 @@ Not emacs, more stuff
 https://github.com/xxh/xxh-shell-fish - use fish on the other end of an ssh
 link. Part of the https://github.com/xxh/xxh project.
 
-`Starting with Common Lisp in 2020`_ is (still) an interesting read (from
-January 2020). I've installed SBCL with::
+Common Lisp:
 
-  $ brew install sbcl
+* `Starting with Common Lisp in 2020`_ is (still) an interesting read (from
+  January 2020). I've installed SBCL with::
+
+    $ brew install sbcl
+
+* https://lisp-journey.gitlab.io/blog/state-of-the-common-lisp-ecosystem-2020/
+(State of the Common Lisp ecosystem, 2020) is good, and was last updated
+Jan/Feb 2021
+
+* https://ambrevar.xyz/modern-common-lisp/index.html (Modern, functional
+  Common Lisp: Myths and tips) seems nice, and was last updated 2020-12-23
+
+* https://lisp-lang.org/ and http://planet.lisp.org/
+
+and there are more articles linked on my pinboard.
 
 Not forgetting Clojure_ or `Chicken Scheme`_ (meant to be good for CLI) or
 even `Lisp Based Erlang`_ (and see https://github.com/llaisdy/beam_languages
@@ -3310,7 +3323,6 @@ wants static typing).
 
 So that's SBCL (CommonLisp), Elixir (on Erlang) *and* Rust on my list.
 And, of course, Haxe.
-
 
 And somehow I still want to play with Racket_ as well, even though I know I
 probably shouldn't...
