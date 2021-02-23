@@ -3214,6 +3214,33 @@ Interesting from slack:
 * https://github.com/tslilc/siege-mode - An emacs minor mode to surround the
   region with smart delimiters interactively.
 
+2021-02-19
+==========
+
+* https://www.dr-qubit.org/Evil_cursor_model.html - Evil cursor model. The
+  author thinks about how cursors work in emacs, vim and evil, and has
+  suggestions for how things could be better (and provisional emacs lisp to
+  make it so).
+
+2021-02-23
+==========
+
+* https://github.com/grandfoobah/systemE - A lightweight systemd replacement
+  written in Emacs lisp. Yes, it's a joke.
+
+* https://github.com/skyler544/doom-nano-testing - an "attempt at adapting the
+  gorgeous Nano Emacs by Nicolas Rougier to work with the powerhouse that is
+  Doom Emacs."
+
+  https://github.com/rougier/nano-emacs is an attempt to produce a version of
+  Emacs based on design principles described in the article "On the design of
+  text Editors" at https://arxiv.org/abs/2008.06030
+
+  Probably worth looking at one day.
+
+*
+
+
 -----------
 
 Notes on using doom
@@ -3298,6 +3325,26 @@ Not emacs, more stuff
 https://github.com/xxh/xxh-shell-fish - use fish on the other end of an ssh
 link. Part of the https://github.com/xxh/xxh project.
 
+Programming languages
+=====================
+
+(other than emacs lisp)
+
+In no good order:
+
+* Common Lisp (SBCL_ is obvious)
+* Rust_
+* Elixir_ (on Erlang_, or more accurately on the BEAM)
+* of course, Haxe_
+* somehow I still want to play with Racket_ as well, even though I know I
+  probably shouldn't...
+* passerine_ looks very cute - I love that it uses ``--`` for comments (yes,
+  that is a superficial thing to judge it on!)
+* or maybe Gleam_ for a statically typed language on top of Erlang_
+
+And see https://github.com/llaisdy/beam_languages for more languages on the
+Erlang VM.
+
 Common Lisp:
 
 * `Starting with Common Lisp in 2020`_ is (still) an interesting read (from
@@ -3306,28 +3353,24 @@ Common Lisp:
     $ brew install sbcl
 
 * https://lisp-journey.gitlab.io/blog/state-of-the-common-lisp-ecosystem-2020/
-(State of the Common Lisp ecosystem, 2020) is good, and was last updated
-Jan/Feb 2021
+  (State of the Common Lisp ecosystem, 2020) is good, and was last updated
+  Jan/Feb 2021
 
 * https://ambrevar.xyz/modern-common-lisp/index.html (Modern, functional
   Common Lisp: Myths and tips) seems nice, and was last updated 2020-12-23
 
 * https://lisp-lang.org/ and http://planet.lisp.org/
 
+* and there is a github repository for https://github.com/norvig/paip-lisp
+  (Paradigms of Artificial Intelligence Programming), which is a book that
+  lots of people seem to like.
+
+* and, of course, `Practical Common Lisp`_ (the book) is available online.
+
 and there are more articles linked on my pinboard.
 
 Not forgetting Clojure_ or `Chicken Scheme`_ (meant to be good for CLI) or
-even `Lisp Based Erlang`_ (and see https://github.com/llaisdy/beam_languages
-for more languages on the Erlang VM, including other lisps, and Gleam_ if one
-wants static typing).
-
-So that's SBCL (CommonLisp), Elixir (on Erlang) *and* Rust on my list.
-And, of course, Haxe.
-
-And somehow I still want to play with Racket_ as well, even though I know I
-probably shouldn't...
-
-And, of course, `Practical Common Lisp`_ (the book) is available online.
+even `Lisp Based Erlang`_. And, of course, there's Hy_ on the Python VM.
 
 Even more Lisp links:
 
@@ -3336,15 +3379,18 @@ Even more Lisp links:
   useful
 * https://interlisp.org/ - Restore Interlisp-D to usability on modern
   OSes. Sounds interesting. Lisp + editing environment.
-* https://news.ycombinator.com/item?id=23843525 and
-  https://www.apress.com/us/book/9781484261330 - new book, The Common Lisp
-  Condition System, coming in October 2020.
 
-.. _`Starting with Common Lisp in 2020`: http://dnaeon.github.io/starting-with-common-lisp-in-2020/
 .. _Clojure: https://clojure.org/
+.. _erlang: https://www.erlang.org/
+.. _Gleam: https://gleam.run/
+.. _Haxe: https://haxe.org/
+.. _hy: https://github.com/hylang/hy
+.. _Racket: https://racket-lang.org/
+.. _rust: https://www.rust-lang.org/
 .. _`Chicken Scheme`: https://call-cc.org/
 .. _`Lisp Based Erlang`: http://lfe.io/
-.. _Gleam: https://gleam.run/
-.. _Racket: https://racket-lang.org/
 .. _`Practical Common Lisp`: http://www.gigamonkeys.com/book/
-.. _Haxe: https://haxe.org/
+.. _`Starting with Common Lisp in 2020`: http://dnaeon.github.io/starting-with-common-lisp-in-2020/
+.. _elixir: https://elixir-lang.org/
+.. _passerine: https://www.passerine.io/
+.. _sbcl: http://www.sbcl.org/
