@@ -3322,8 +3322,31 @@ some sort of session memory. Humph.
 Not emacs, more stuff
 =====================
 
+fish on the far end of ssh
+--------------------------
+
 https://github.com/xxh/xxh-shell-fish - use fish on the other end of an ssh
 link. Part of the https://github.com/xxh/xxh project.
+
+Managing dotfiles
+-----------------
+
+https://github.com/deadc0de6/dotdrop is yet another way of managing your dot
+files (using a git repository), but the example configuation file makes me
+think this might be worth looking at.
+
+(Although it's probably a bit overkill for what I want, and I might be better
+borrowing the idea and just implementing what I actually want. For instance, I
+think I still like the idea of a different repository for each "sort" of dot
+file - it's particuarly nice to keep my Doom setup separate, because of this
+file, for instance! On the other other hand, ``dotdrop`` has probably thought
+of things I haven't...)
+
+https://deadc0de.re/articles/dotfiles.html is their overview of the
+alternatives and why they wrote their own solution.
+
+https://dotfiles.github.io/ ("Your unofficial guide to dotfiles on GitHub") is
+a good overview of what, why and how.
 
 Programming languages
 =====================
@@ -3374,7 +3397,6 @@ even `Lisp Based Erlang`_. And, of course, there's Hy_ on the Python VM.
 
 Even more Lisp links:
 
-* https://urn-lang.com/ - A Lisp implementation for Lua
 * https://cs.gmu.edu/~sean/lisp/LispTutorial.html - Lisp Quickstart, looks
   useful
 * https://interlisp.org/ - Restore Interlisp-D to usability on modern
