@@ -3238,10 +3238,29 @@ Interesting from slack:
 
   Probably worth looking at one day.
 
-*
-
-
 -----------
+
+reStructuredText and rst.el
+===========================
+
+docutils has
+https://sourceforge.net/p/docutils/code/HEAD/tree/trunk/docutils/tools/editors/emacs/rst.el
+
+emacs has
+https://github.com/emacs-mirror/emacs/blob/master/lisp/textmodes/rst.el
+
+which is mirrored from git://git.sv.gnu.org/emacs.git (although I can't see that)
+
+I *think* the version of the emacs lisp is 1.5.2, for emacs 26.2 and later,
+but I should really check if those two files are the same.
+
+Documentation (for v1.4.1 - ) is at
+https://docutils.sourceforge.io/docs/user/emacs.html
+
+There are quite a lot of FIXME style comments, and I do wonder if things like
+the "temporary contents" generation wouldn't be better handled by leveraging
+other existing tools.
+
 
 Notes on using doom
 ===================
