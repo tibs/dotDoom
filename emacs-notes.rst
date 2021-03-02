@@ -3238,6 +3238,15 @@ Interesting from slack:
 
   Probably worth looking at one day.
 
+2021-03-01
+==========
+
+* https://linuxdatabases.info/blog/?p=267 - ielm – the interactive Emacs Lisp REPL
+
+  Also see https://emacs-fu.blogspot.com/2011/03/ielm-repl-for-emacs.html
+
+  and here is a video showing it in action: https://www.youtube.com/watch?v=lU1T2mqipN8
+
 -----------
 
 reStructuredText and rst.el
@@ -3400,6 +3409,44 @@ Common Lisp:
 
 * https://ambrevar.xyz/modern-common-lisp/index.html (Modern, functional
   Common Lisp: Myths and tips) seems nice, and was last updated 2020-12-23
+
+* https://stevelosh.com/blog/2018/08/a-road-to-common-lisp/ (A Road to Common
+  Lisp, 2018) is nice (and opinionated). It suggests the following books, in
+  the following order:
+
+  * Common Lisp: A Gentle Introduction to Symbolic Computation
+
+    This is available online, and as a PDF (both the 1990 edition). The print
+    edition is 2013, reprint with some fixes. I tend to feel it starts rather
+    too low level for me. He recommends it especially for the exercises -
+    learn by doing.
+
+  * Practical Common Lisp. Got it - it looks delightful.
+
+  * The actual language spec, for looking things up - also available online.
+    http://www.lispworks.com/documentation/lw70/CLHS/Front/Contents.htm
+
+  * Eventually, move on to learning idiomatic lisp - he recommends Paradigms
+    of Artificial Intelligence Programming, also available as a free PDF.
+
+  * Next, as a technical book, Common Lisp Recipes
+
+  * He also recommends (as a non-technical book) Patterns of Software by
+    Richard Gabriel (available as a PDF)
+
+  * After that:
+
+    * for macros, first On Lisp and then Let Over Lambda (I have both) - take
+      both with a pinch of salt (!)
+
+    * for CLOS, Object-Oriented Programming in COMMON LISP: A Programmer's
+      Guide to CLOS, and if one wants to bend one's mind, The Art of the
+      Metaobject Protocol
+
+  * He also has some affection for Land of Lisp
+
+  Obviously The Common Lisp Condition System is too recent for an opinion to
+  be there.
 
 * https://lisp-lang.org/ and http://planet.lisp.org/
 
