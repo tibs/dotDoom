@@ -3247,6 +3247,36 @@ Interesting from slack:
 
   and here is a video showing it in action: https://www.youtube.com/watch?v=lU1T2mqipN8
 
+* https://github.com/bard/emacs-director - drives an Emacs session from the
+  point of view of the user. It can be used for end-to-end testing, hands-free
+  screencast recording, probably more.
+
+  Generates a screencast using asciicinema (https://asciinema.org/,
+  https://github.com/asciinema/asciinema)
+
+  There's a nice preview on the page showing a pre-defined editing session
+  playing back.
+
+2021-03-02
+==========
+
+Tip of the day: ``M-x delete-trailing-whitespace`` will also remove stray
+carriage returns (``^M``) if the file encoding is "unix" (``C-x RET f unix``).
+
+2021-03-03
+==========
+
+* https://protesilaos.com/codelog/2021-03-03-emacs-query-replace-downcase/ -
+  Use 'M-x query-replace-regexp' to downcase matches
+
+  Neat use of ``query-replace-regexp`` with a callable.
+
+    "For the replacement text I instructed the command to evaluate the
+    downcase function. This is done by escaping the comma operator (``,``) and
+    then supplying the function with a regexp group. Because I wished to match
+    everything, the group should be ``\0``. Which means that the replacement
+    should be expressed thus: ``\,(downcase \0)``"
+
 -----------
 
 reStructuredText and rst.el
@@ -3449,6 +3479,10 @@ Common Lisp:
   be there.
 
 * https://lisp-lang.org/ and http://planet.lisp.org/
+
+* https://lispcookbook.github.io/cl-cookbook/ - "The CL Cookbook aims to
+  tackle all sort of topics, for the beginner as for the more advanced
+  developer." Also downloadable in EPUB or PDF for a fee.
 
 * and there is a github repository for https://github.com/norvig/paip-lisp
   (Paradigms of Artificial Intelligence Programming), which is a book that
