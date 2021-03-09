@@ -3277,6 +3277,14 @@ carriage returns (``^M``) if the file encoding is "unix" (``C-x RET f unix``).
     everything, the group should be ``\0``. Which means that the replacement
     should be expressed thus: ``\,(downcase \0)``"
 
+2021-03-09
+==========
+
+* https://martin.baillie.id/wrote/evil-motion-training-for-emacs/ - a mode to
+  make it harder to use "inefficient" evil motions - like all those Vim setups
+  that stop you typing ``hhhhhhhh`` to get somewhere. It can even suggest
+  better ways of doing things...
+
 -----------
 
 reStructuredText and rst.el
@@ -3451,7 +3459,7 @@ Common Lisp:
     too low level for me. He recommends it especially for the exercises -
     learn by doing.
 
-  * Practical Common Lisp. Got it - it looks delightful.
+  * `Practical Common Lisp`_. Got it - it looks delightful.
 
   * The actual language spec, for looking things up - also available online.
     http://www.lispworks.com/documentation/lw70/CLHS/Front/Contents.htm
@@ -3459,7 +3467,7 @@ Common Lisp:
   * Eventually, move on to learning idiomatic lisp - he recommends Paradigms
     of Artificial Intelligence Programming, also available as a free PDF.
 
-  * Next, as a technical book, Common Lisp Recipes
+  * Next, as a technical book, Common Lisp Recipes. Got it. It's good.
 
   * He also recommends (as a non-technical book) Patterns of Software by
     Richard Gabriel (available as a PDF)
@@ -3488,7 +3496,8 @@ Common Lisp:
   (Paradigms of Artificial Intelligence Programming), which is a book that
   lots of people seem to like.
 
-* and, of course, `Practical Common Lisp`_ (the book) is available online.
+* And the actual standard (or the final draft thereof) is available at
+  http://cberr.us/downloads/cl-ansi-standard-draft-w-sidebar.pdf
 
 and there are more articles linked on my pinboard.
 
