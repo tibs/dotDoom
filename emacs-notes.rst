@@ -3285,6 +3285,16 @@ carriage returns (``^M``) if the file encoding is "unix" (``C-x RET f unix``).
   that stop you typing ``hhhhhhhh`` to get somewhere. It can even suggest
   better ways of doing things...
 
+* https://github.com/sunnyhasija/Academic-Doom-Emacs-Config#theme - shows how
+  to change the theme in Doom. This is hopeful because it suggests that one
+  can use any Emacs theme, which is interesting and would allow me to explore
+  more.
+
+  (On the other hand, the theme I'm using, ``doom-one-light`` does seem quite
+  nice)
+
+  The preceding section shows how to specify fonts.
+
 -----------
 
 reStructuredText and rst.el
