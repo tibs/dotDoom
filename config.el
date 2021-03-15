@@ -414,6 +414,25 @@ If `word-wrap' is on, and `auto-fill-mode off, call
                     (ordinal day)
                     format-string))))
 
+(defun insert-datestamp ()
+  "Insert a datestamp title, based on todays date.
+
+  For instance:
+
+   2019-09-23
+   ==========
+
+   Monday 23rd September 2019
+
+  Leaves point on the second blank line after the title."
+  (interactive)
+  (insert
+   (concat
+    (format-time-string "%Y-%m-%d\n")
+    "==========\n"
+    "\n"
+    (format-time-string "%A %o %B %Y\n\n"))))
+
 (defun insert-logbook-title ()
   "Insert a logbook title, based on todays date.
 

@@ -3295,6 +3295,13 @@ carriage returns (``^M``) if the file encoding is "unix" (``C-x RET f unix``).
 
   The preceding section shows how to specify fonts.
 
+2021-03-15
+==========
+
+* http://mbork.pl/2021-03-15_Indenting_code_in_Emacs - Indenting code in
+  Emacs. Extolls the virtues of ``C-x <TAB> (indent-rigidly)`` to allow
+  (possibly interactive) adjustment of the indentation (of a region).
+
 -----------
 
 reStructuredText and rst.el
@@ -3429,9 +3436,12 @@ Programming languages
 
 (other than emacs lisp)
 
+I have a little list...
+-----------------------
+
 In no good order:
 
-* Common Lisp (SBCL_ is obvious)
+* Common Lisp (SBCL_ is obvious) - see `Common Lisp`_ below
 * Rust_
 * Elixir_ (on Erlang_, or more accurately on the BEAM)
 * of course, Haxe_
@@ -3444,7 +3454,8 @@ In no good order:
 And see https://github.com/llaisdy/beam_languages for more languages on the
 Erlang VM.
 
-Common Lisp:
+Common Lisp
+-----------
 
 * `Starting with Common Lisp in 2020`_ is (still) an interesting read (from
   January 2020). I've installed SBCL with::
@@ -3509,7 +3520,20 @@ Common Lisp:
 * And the actual standard (or the final draft thereof) is available at
   http://cberr.us/downloads/cl-ansi-standard-draft-w-sidebar.pdf
 
+* https://github.com/lem-project/lem (Lem) is an editor written in Common
+  Lisp. Technically it's an Emacs, I think (or like one) but clearly has vim
+  bindings (of some sort) available. For what it's worth, its documentation
+  could do with some love. But also, and refreshingly, it looks as if at least
+  some of the core contributors are Japanese - the owner of the repository,
+  https://github.com/cxxxr, who is also the main contributor, seems to be.
+
+* https://github.com/google/lisp-koans - Common Lisp koans, following the
+  inspiration of the Ruby koans.
+
 and there are more articles linked on my pinboard.
+
+Other Lisps and things
+----------------------
 
 Not forgetting Clojure_ or `Chicken Scheme`_ (meant to be good for CLI) or
 even `Lisp Based Erlang`_. And, of course, there's Hy_ on the Python VM.
