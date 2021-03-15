@@ -100,7 +100,7 @@ Spacemacs with everything installed has a reputation for getting slow.
 Interesting Doom links:
 
 * https://github.com/hlissner/doom-emacs
-  
+
   * https://github.com/hlissner/doom-emacs/wiki
   * https://github.com/hlissner/doom-emacs/wiki/Getting-Started
   * https://github.com/hlissner/doom-emacs/wiki/FAQ
@@ -163,10 +163,10 @@ that it wants to be available as M-<x>. So in its
        ...
        (us . (    ("\M-3" . "£")
                   ("\M-@" . "€")
-		  ("\M-6" . "§")))
+      ("\M-6" . "§")))
        (brtish . (("\M-3" . "#")
                   ("\M-2" . "€")
-		  ("\M-6" . "§")))))
+      ("\M-6" . "§")))))
 
 although I'm not terribly convinced by that "§" as it has its own key, paired with "±",
 on my keyboard.
@@ -248,7 +248,7 @@ What things do I set up in vim, and want the same (or similar) in Emacs?
     https://github.com/cinsk/emacs-vim-modeline
 
   as referenced by
-  
+
     https://emacs.stackexchange.com/questions/46826/emulate-vim-modeline-in-evil-mode
 
   (from December 2018) - no idea if this works, and not sure how to hand
@@ -292,7 +292,7 @@ Actual problems
 * Is there a way to stop changing to another (Mac) window when I exit evil and
   that was the last evil frame in the first window? It's somewhat
   disconcerting to have my focussed window change like that.
-  
+
   Is this because of emacsclient (or does it matter how I created the deleted
   frame - I suspect not)?
 
@@ -352,7 +352,7 @@ Actual problems
   https://emacs.stackexchange.com/questions/14246/is-it-possible-to-disable-the-support-for-the-mouse-in-gui/22539
   sounds like it is relevant in general, and *it* has a pointer to
   `disable-mouse`_ at the end.
-    
+
   ...So I've added the use of disable-mouse to my init.el, hopefully with
   the right sort of settings. It *does* mean that clicking on a window does
   not move point to the mouse location (as, I suppose, advertised). I'm not
@@ -370,7 +370,7 @@ Actual problems
 
   **NB:** See the note on use of a mouse (or not) in flyspell elsewhere in
   this document.
-  
+
 * When I highlight some text in emacs, if I do CMD-V *too fast* then it
   doesn't get into the (system) clipboard. I should probably investigate
   this...
@@ -527,7 +527,7 @@ General
   - first of a series as he figures out how to setup emacs for his python use.
   Using pyenv, pipenv, elpy, company and jedi.
 * 2019 https://realpython.com/emacs-the-best-python-editor/ - as it says
-    
+
 
 People's emacs init files
 
@@ -535,7 +535,7 @@ People's emacs init files
 
   This appears to have some rather useful Mac OS advice (including iTerm2
   settings) near the start...
-  
+
 * 2019 https://www.john2x.com/emacs.html - John's Emacs Config
   - includes LSP setup, and is evil
 * 2018 https://m00natic.github.io/emacs/emacs-wiki.html - Andrey's Opinionated
@@ -689,7 +689,7 @@ various programming languages. Probably worth playing with.
 Evil mode
 
 * https://www.emacswiki.org/emacs/Evil - where I (re) started
-* 2018 https://github.com/noctuid/evil-guide - Draft of a guide for using emacs with evil 
+* 2018 https://github.com/noctuid/evil-guide - Draft of a guide for using emacs with evil
 * https://brainlessdeveloper.com/2017/12/27/making-emacs-work-like-my-vim-setup/
   - Making Emacs work like my Neovim setup
 * http://evgeni.io/posts/quick-start-evil-mode/ - Quick Start emacs with evil
@@ -791,7 +791,7 @@ Other stuff
   unfortunately this package is not available in the standard Emacs package
   repositories, so I'd have to clone it by hand. So this is something to think
   about another time.
-  
+
 * https://github.com/fasheng/dired-toggle - show dired as a sidebar
 * https://github.com/Wilfred/deadgrep - use ripgrep from Emacs
 * https://github.com/NixOS/nix-mode - an Emacs major mode for editing Nix
@@ -1058,8 +1058,8 @@ More links on learning [emacs] lisp:
 * https://exercism.io/ has an Emacs Lisp module (as well as lots of others, of course)
 
 More other stuff:
-  
-* https://github.com/AdamNiederer/cov/ - displaying coverage data on your code 
+
+* https://github.com/AdamNiederer/cov/ - displaying coverage data on your code
 
 https://medium.com/@suvratapte/configuring-emacs-from-scratch-use-package-c30382297877
 is part 3 of a series, but discusses the organisation of an init.el, and how
@@ -1104,7 +1104,7 @@ for more ideas.
   way to *actually* record a screencast).
 
 * https://metaredux.com/posts/2019/12/09/dealing-with-expired-elpa-gpg-keys.html
-  
+
 
 Catalina problems with Emacs
 ============================
@@ -1213,7 +1213,7 @@ Someone on the internet said::
   desired path (environment variable).
 
 -- https://www.reddit.com/r/emacs/comments/bmufza/finding_emacs_distributions_and_trying_them_out/en029rm/
-  
+
 ---------
 
 
@@ -1284,7 +1284,7 @@ Ruby in Emacs
 * https://www.emacswiki.org/emacs/RubyOnRails
 
 Articles:
-  
+
 * https://stackoverflow.com/questions/2429373/tips-and-tricks-for-using-emacs-to-develop-a-ruby-on-rails-app
   but it's from 2010
 * 2019 https://dev.to/thiagoa/ruby-and-emacs-tip-advanced-pry-integration-33bk
@@ -1304,10 +1304,10 @@ Also:
 
 * https://github.com/porras/evil-ruby-text-objects - add some Ruby text
   objects and keybindings to Evil
-  
+
 Language Server Protocol (LSP)
 ==============================
-  
+
 https://langserver.org/ "A community-driven source of knowledge for Language
 Server Protocol implementations"
 
@@ -1390,7 +1390,7 @@ and https://github.com/hlissner/doom-emacs/wiki/Getting-Started
 and https://github.com/hlissner/doom-emacs/wiki/Customization
 
 * 2017 https://medium.com/urbint-engineering/emacs-doom-for-newbies-1f8038604e3b
-* 2019 https://www.rousette.org.uk/archives/back-to-doom-emacs/ 
+* 2019 https://www.rousette.org.uk/archives/back-to-doom-emacs/
 
 According to doom-emacs/modules/lang/ruby/packages.el, Doom Emacs
 provides/uses enhaced-ruby-mode (I assume the version from
@@ -1405,9 +1405,9 @@ Things to follow up on:
   problems described at http://spacemacs.org/doc/FAQ.html issue 1.21) and that
   doesn't play well with ``fish``. So look into that.
   I'd rather not have to set ``exec-path`` myself.
-  
+
 * A directory browser down the side might be nice - do I just need to add a
-  package? 
+  package?
 
 
 From my fish command ``doom.fish``::
@@ -2118,12 +2118,12 @@ OK. Not Emacs.
 https://starship.rs
 
 ::
-  
+
   $ brew install starship
 
 Starship needs powerline fonts. Let's try doing that via homebrew, as
 documented at https://github.com/Homebrew/homebrew-cask-fonts ::
-  
+
   $ brew tap homebrew/cask-fonts              # you only have to do this once!
   $ brew cask install font-powerline-symbols
 
@@ -2162,7 +2162,7 @@ Maybe also of interest:
 * https://dev.to/ugw7g85q/setting-up-a-dev-environment-3njm
 * https://iscinumpy.gitlab.io/post/setup-a-new-mac/
 * https://www.nerdfonts.com/
-  
+
 2020-02-10
 ==========
 
@@ -2203,7 +2203,7 @@ Maybe also of interest:
 * https://github.com/wasamasa/eyebrowse - another window configuration
   manager. See https://manuel-uberti.github.io/emacs/2017/08/06/eyebrowse/ for
   an example of how someone uses it.
-  
+
 .. _duti: https://github.com/moretension/duti
 
 2020-02-11
@@ -3544,6 +3544,25 @@ Even more Lisp links:
   useful
 * https://interlisp.org/ - Restore Interlisp-D to usability on modern
   OSes. Sounds interesting. Lisp + editing environment.
+
+Proofy stuff
+------------
+
+Reading stuff by Hillel Wayne, for instance
+
+* https://www.hillelwayne.com/post/formally-modeling-migrations/
+* https://www.hillelwayne.com/post/using-formal-methods/
+* https://www.hillelwayne.com/post/business-case-formal-methods/
+* https://www.hillelwayne.com/post/why-dont-people-use-formal-methods/
+
+makes both Alloy and TLA+ sound interesting, and actually approachable. See:
+
+* https://www.quora.com/What-are-the-differences-between-Alloy-and-TLA+
+* https://alloytools.org/tutorials/online/index.html
+* https://learntla.com/introduction/ (introduction to Learn TLA+, by the
+  aforesaid)
+
+--------------
 
 .. _Clojure: https://clojure.org/
 .. _erlang: https://www.erlang.org/

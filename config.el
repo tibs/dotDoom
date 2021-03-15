@@ -161,7 +161,21 @@
   ;; The default indentation is 3, which I'm not so keen on
   ;; (although I'm happy for it to be 3 for comments)
   (setq rst-indent-literal-normal 2)
+  ;; and I probably need to set evil-shift-width as well, to make indenting
+  ;; a region work as expected
+  (setq evil-shift-width 2)
   )
+
+;; For the above, it's old (2011) but see
+;;   https://stackoverflow.com/questions/8473131/set-the-evil-shift-width-to-the-buffer-local-indentation-in-emacs
+;; and not so old, but even more useful
+;;   https://dougie.io/emacs/indentation/
+;; which also shows setting evil-shift-width, and for what sounds like the
+;; same reason
+
+;; Sometimes, electric-indent-mode doesn't play well with other things
+;;(add-hook! rst-mode (electric-indent-local-mode -1))
+;; Actually, that didn't seem to be the problem
 
 (setq auto-mode-alist
       (append '(("\\.txt\\'" . rst-mode)
@@ -285,7 +299,7 @@
 ;; you that when Emacs starts up)
 
 ;; Highlight trailing whitespace in red, so it’s easily visible
-;(customize-set-variable 'show-trailing-whitespace t)
+(customize-set-variable 'show-trailing-whitespace t)
 
 ;; Change how empty line markers are handled
 ;(setq-default indicate-empty-lines t)
@@ -381,6 +395,11 @@ If `word-wrap' is on, and `auto-fill-mode off, call
 ;; The default appears to be to highlight the current line with a light green
 ;; background.
 ;(global-hl-line-mode 1)
+
+;; Miscellanea
+;; ===========
+;; Always enable the (vertical) scrollbar
+(scroll-bar-mode)
 
 ;; ===============================================================
 ;; Support for the log files I write at work.
