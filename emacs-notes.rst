@@ -3545,6 +3545,17 @@ Even more Lisp links:
 * https://interlisp.org/ - Restore Interlisp-D to usability on modern
   OSes. Sounds interesting. Lisp + editing environment.
 
+.. note:: And https://github.com/sasagawa888/eisl is an ISLisp compiler,
+   apparently in active develoment, which is fun.
+
+   * http://www.islisp.org/docs/islisp-v23.pdf is working draft 23 from 2007
+   * https://islisp.js.org/ is an ISLisp on Go and/or Javascript
+   * https://www.iso.org/standard/44338.html is the standards page - it sounds
+     as if that 2007 draft is probably still current.
+
+   Of course, I don't think ISLisp ever got formally "finished".
+
+
 Proofy stuff
 ------------
 
@@ -3560,7 +3571,9 @@ makes both Alloy and TLA+ sound interesting, and actually approachable. See:
 * https://www.quora.com/What-are-the-differences-between-Alloy-and-TLA+
 * https://alloytools.org/tutorials/online/index.html
 * https://learntla.com/introduction/ (introduction to Learn TLA+, by the
-  aforesaid)
+  aforesaid) and a review of the book:
+  http://www.pathsensitive.com/2019/05/book-review-practical-tla.html; and a
+  response to the review: https://old.reddit.com/r/tlaplus/comments/bptl02/book_review_practical_tla/
 
 --------------
 

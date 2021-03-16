@@ -301,6 +301,10 @@
 ;; Highlight trailing whitespace in red, so it’s easily visible
 (customize-set-variable 'show-trailing-whitespace t)
 
+;; More control over how whitespace is shown
+;; This is something of an experiment.
+(setq whitespace-style '(face trailing tabs lines-tail indentation::space space-before-tab tab-mark))
+
 ;; Change how empty line markers are handled
 ;(setq-default indicate-empty-lines t)
 ;(when (not indicate-empty-lines)
