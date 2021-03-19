@@ -3530,6 +3530,14 @@ Common Lisp
 * https://github.com/google/lisp-koans - Common Lisp koans, following the
   inspiration of the Ruby koans.
 
+* https://github.com/CodyReichert/awesome-cl - A curated list of awesome
+  Common Lisp libraries. And the related
+  https://github.com/azzamsa/awesome-cl-software - A curated list of awesome
+  application software built with Common Lisp.
+
+* https://www.reddit.com/r/Common_Lisp/ has a list of useful resources down
+  the right hand side (including many of the above)
+
 and there are more articles linked on my pinboard.
 
 Other Lisps and things
