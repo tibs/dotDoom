@@ -3302,6 +3302,23 @@ carriage returns (``^M``) if the file encoding is "unix" (``C-x RET f unix``).
   Emacs. Extolls the virtues of ``C-x <TAB> (indent-rigidly)`` to allow
   (possibly interactive) adjustment of the indentation (of a region).
 
+2021-03-23
+==========
+
+* https://github.com/kanru/uuidgen-el - UUID generation in emacs lisp
+
+
+* https://endlessparentheses.com/emacs-advanced-basics-the-ins-and-outs-of-setf.html -
+  the ins and outs of ``setf`` (a better way of setting things, originally
+  from Common Lisp) - article from 2014
+
+In the same "series" and around the same time:
+
+* https://endlessparentheses.com/understanding-letf-and-how-it-replaces-flet.html -
+  Understanding letf and how it replaces flet
+* https://endlessparentheses.com/emacs-advanced-basics-swaping-variables.html -
+  Swaping Variables with cl-lib
+
 -----------
 
 reStructuredText and rst.el
@@ -3599,3 +3616,28 @@ makes both Alloy and TLA+ sound interesting, and actually approachable. See:
 .. _elixir: https://elixir-lang.org/
 .. _passerine: https://www.passerine.io/
 .. _sbcl: http://www.sbcl.org/
+
+Common Lisp links
+=================
+
+Until I put them somewhere better...
+
+2021-03-26
+----------
+
+* https://github.com/lokedhs/docbrowser - Web-based Common Lisp documentation
+  browser (i.e., accesss common lisp docs in the local browser)
+* https://lisp-journey.gitlab.io/blog/lem-can-be-started-as-a-full-featured-repl/
+  - Lem can now be started as a full featured Lisp REPL
+
+Other articles from that same blog:
+
+* https://lisp-journey.gitlab.io/blog/slime-tips/ - with some links to other
+  places as well.
+
+And the author also writes in the Cookbook
+https://lispcookbook.github.io/cl-cookbook/ (they say they're the main
+contributor).
+
+* https://github.com/willijar/cl-docutils - docutils in common lisp (so,
+  reStructuredText support)
