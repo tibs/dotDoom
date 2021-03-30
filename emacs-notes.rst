@@ -3319,6 +3319,12 @@ In the same "series" and around the same time:
 * https://endlessparentheses.com/emacs-advanced-basics-swaping-variables.html -
   Swaping Variables with cl-lib
 
+2021-03-30
+==========
+
+* https://blog.lambda.cx/posts/emacs-align-columns/ - Aligning columns in
+  Emacs with ``M-x align-non-space``
+
 -----------
 
 reStructuredText and rst.el
