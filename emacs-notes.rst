@@ -3325,6 +3325,23 @@ In the same "series" and around the same time:
 * https://blog.lambda.cx/posts/emacs-align-columns/ - Aligning columns in
   Emacs with ``M-x align-non-space``
 
+2021-04-06
+==========
+
+* https://tech.toryanderson.com/2021/04/03/selected-for-brilliant-emacs-selections/
+  - a keymap for when the visual selection is active. It doesn't provide
+  anyway default keys - purely up to the user to set them.
+
+  https://github.com/Kungsgeten/selected.el
+
+    "``selected.el`` provides the ``selected-minor-mode`` for Emacs. When
+    ``selected-minor-mode`` is active, the keybindings in ``selected-keymap`` will be
+    enabled when the region is active. This is useful for commands that
+    operates on the region, which you only want bound to a key when the region
+    is active. ``selected.el`` also provides ``selected-global-mode``, if you want
+    ``selected-minor-mode`` in every buffer."
+
+
 -----------
 
 reStructuredText and rst.el
@@ -3647,3 +3664,14 @@ contributor).
 
 * https://github.com/willijar/cl-docutils - docutils in common lisp (so,
   reStructuredText support)
+
+2021-03-30
+==========
+
+* https://github.com/mmontone/erudite/ - literate programming in Common Lisp.
+
+2021-04-08
+==========
+
+* https://yitzchak.github.io/common-lisp-jupyter/ - Common Lisp for Jupyter
+  notebooks.
