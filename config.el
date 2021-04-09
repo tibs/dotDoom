@@ -160,11 +160,12 @@
 (after! rst
   ;; The default indentation is 3, which I'm not so keen on
   ;; (although I'm happy for it to be 3 for comments)
-  (setq rst-indent-literal-normal 2)
-  ;; and I probably need to set evil-shift-width as well, to make indenting
-  ;; a region work as expected
-  (setq evil-shift-width 2)
-  )
+  (setq rst-indent-literal-normal 2))
+
+;; and I probably need to set evil-shift-width as well, to make indenting
+;; a region work as expected
+(add-hook! rst-mode
+  (setq evil-shift-width 2))
 
 ;; For the above, it's old (2011) but see
 ;;   https://stackoverflow.com/questions/8473131/set-the-evil-shift-width-to-the-buffer-local-indentation-in-emacs
@@ -174,7 +175,7 @@
 ;; same reason
 
 ;; Sometimes, electric-indent-mode doesn't play well with other things
-;;(add-hook! rst-mode (electric-indent-local-mode -1))
+;(add-hook! rst-mode (electric-indent-local-mode -1))
 ;; Actually, that didn't seem to be the problem
 
 (setq auto-mode-alist
