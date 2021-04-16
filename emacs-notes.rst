@@ -3341,6 +3341,18 @@ In the same "series" and around the same time:
     is active. ``selected.el`` also provides ``selected-global-mode``, if you want
     ``selected-minor-mode`` in every buffer."
 
+2021-04-13
+==========
+
+* https://www.masteringemacs.org/article/speed-up-emacs-libjansson-native-elisp-compilation
+  - Speed up Emacs with libjansson and native elisp compilation
+
+  libjansson is supported in Emacs 27, and makes JSON faster, which also makes
+  lsp-mode or eglot faster.
+
+  Native compilation (of elisp) is still  experimental, and probably won't be
+  standard until Emacs 28, so some way off.
+
 
 -----------
 
