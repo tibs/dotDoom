@@ -3353,6 +3353,22 @@ In the same "series" and around the same time:
   Native compilation (of elisp) is still  experimental, and probably won't be
   standard until Emacs 28, so some way off.
 
+2021-04-23
+==========
+
+* https://irreal.org/blog/?p=9646 - Fifteen Days with Dired - links to the
+  actual article at
+
+  * https://www.ramitmittal.com/blog/15-days-in-dired/
+
+  Note the "outer" article suggests "you can also map ``xdg-open`` or ``open``
+  to the be the default action for the ``!`` and ``&`` commands" (``xdg-open``
+  being the Linux equivalent of the Mac's ``open``).
+
+  Strangely, neither of them mention ``wdired``. There's a nice article on
+  that at https://masteringemacs.org/article/wdired-editable-dired-buffers,
+  although of course the evil key bindings are different.
+
 
 -----------
 
