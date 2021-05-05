@@ -3369,6 +3369,22 @@ In the same "series" and around the same time:
   that at https://masteringemacs.org/article/wdired-editable-dired-buffers,
   although of course the evil key bindings are different.
 
+2021-05-04
+==========
+
+http://mbork.pl/2021-05-01_Emacs_Lisp_book_revived - Marcin Borkowski is
+resuming work on his Intermediate Emacs Lisp book. It's being released as he
+writes it at https://leanpub.com/hacking-your-way-emacs/ (as is normal for
+LeanPub books).
+
+He points out that for an *introduction* to programming with Emacs Lisp, one
+should look to https://www.gnu.org/software/emacs/manual/eintr.html, which is
+free.
+
+--------
+
+Coming back to https://tecosaur.github.io/emacs-config/config.html as a really
+useful document on customising Doom.
 
 -----------
 
@@ -3381,7 +3397,7 @@ https://sourceforge.net/p/docutils/code/HEAD/tree/trunk/docutils/tools/editors/e
 emacs has
 https://github.com/emacs-mirror/emacs/blob/master/lisp/textmodes/rst.el
 
-which is mirrored from git://git.sv.gnu.org/emacs.git (although I can't see that)
+which is mirrored from git://git.sv.gnu.org/emacs.git (altahough I can't see that)
 
 I *think* the version of the emacs lisp is 1.5.2, for emacs 26.2 and later,
 but I should really check if those two files are the same.
@@ -3594,6 +3610,13 @@ Common Lisp
   could do with some love. But also, and refreshingly, it looks as if at least
   some of the core contributors are Japanese - the owner of the repository,
   https://github.com/cxxxr, who is also the main contributor, seems to be.
+
+  But note https://github.com/lem-project/lem/tree/master/modes/vi-mode -
+  there's already support for some sort of vim capability
+
+* There's also https://github.com/robert-strandh/Second-Climacs, which appears
+  to be active, but in very early stages. But it uses McClim, so it a GUI from
+  the start (which might mean it won't do terminal mode).
 
 * https://github.com/google/lisp-koans - Common Lisp koans, following the
   inspiration of the Ruby koans.
