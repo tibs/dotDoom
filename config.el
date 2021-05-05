@@ -36,6 +36,28 @@
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
 (setq display-line-numbers-type t)
 
+;; https://www.gnu.org/software/emacs/manual/html_node/emacs/Uniquify.html
+;; When presented with duplicate buffer names, I'd like a name rather than
+;; a number to distinguish them. For instance:
+;;
+;;   buffer.rb <this_dir>
+;;
+;; rather than
+;;
+;;   buffer.rb <2>
+(setq uniquify-buffer-name-style 'post-forward-angle-brackets)
+
+;; I was finding that `doom doctor` would report that my projectile cache
+;; was too large. This can be "solved" by deleting the file, which lives
+;; at ~/.emacs.d/.local/cache/projectile.cache
+;;
+;; However, it may also be worth using "alien" indexing, and avoiding the use
+;; of a cache. Whilst the projectile documentation says this is the default
+;; from projectile 2.0, it seems to be set to "hybrid" for me at the moment
+;; (Doom v2.0.9, 2021-05-05)
+;;
+;; See https://docs.projectile.mx/projectile/configuration.html#project-indexing-method
+(setq projectile-indexing-method 'alien)
 
 ;; Here are some additional functions/macros that could help you configure Doom:
 ;;
