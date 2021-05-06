@@ -365,10 +365,6 @@ If `word-wrap' is on, and `auto-fill-mode off, call
 ;; later than in Vim - i.e., when a whole word has occurred past the fill
 ;; column, not when a word crosses it. I *think* I prefer the Vim approach.
 
-;; When lines *are* too long to show in the window, then make them show as
-;; wrapped
-(global-visual-line-mode)
-
 ;(use-package evil-numbers
 ;  :ensure t)
 ;; evil-numbers provides the Vim capability to increment/decrement a number

@@ -182,3 +182,17 @@
        :config
        ;;literate
        (default +bindings +smartparens))
+
+;; When there is a very long line, Doom Emacs will visually wrap it so it
+;; looks nice. However the default is for commands like "$" and "0" to
+;; act on the "visual" line, rather than the "logical" line. So given
+;;
+;;          2 some very long line that appears
+;;            to wrap (not no extra line number)
+;;
+;; and with mark on "some", typing "$" would take one to the end of "answers".
+;; I want to go to the end of "number)" instead. To do this I need to switch
+;; off the behaviour I don't want, as follows.
+;; And since this needs to be done before loading evil, the recommended place
+;; to do it is in this file.
+(setq evil-respect-visual-line-mode nil)
