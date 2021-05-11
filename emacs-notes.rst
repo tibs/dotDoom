@@ -3386,6 +3386,25 @@ free.
 Coming back to https://tecosaur.github.io/emacs-config/config.html as a really
 useful document on customising Doom.
 
+2021-05-11
+==========
+
+https://ideas.offby1.net/posts/development-environment-2021.html
+
+* using chezmoi_ to manage dotfiles and suchlike
+* Doom emacs
+* direnv_
+* starship prompt
+* asdf_ to "manage multiple runtime versions with a single CLI tool"
+
+  (not the same as `Common Lisp ASDF`_, which is "the de facto standard build
+  facility for Common Lisp")
+
+.. _chesmoi: https://www.chezmoi.io/
+.. _direnv: https://direnv.net/
+.. _asdf: https://asdf-vm.com
+.. _`Common Lisp ASDF`: https://common-lisp.net/project/asdf/
+
 -----------
 
 reStructuredText and rst.el
