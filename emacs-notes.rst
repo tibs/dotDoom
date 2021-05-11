@@ -3405,6 +3405,27 @@ https://ideas.offby1.net/posts/development-environment-2021.html
 .. _asdf: https://asdf-vm.com
 .. _`Common Lisp ASDF`: https://common-lisp.net/project/asdf/
 
+Also, interesting "readings" page from an AI programming course from Chris
+Riesbeck at Northwestern University:
+
+* https://courses.cs.northwestern.edu/325/index.php is the course summary
+* https://courses.cs.northwestern.edu/325/readings/readings.php is the
+  "readings" page.
+
+Which references http://www.nhplace.com/kent/quoted.html#lisp-utility-caveat:
+
+  “Please don't assume Lisp is only useful for Animation and Graphics, AI,
+  Bioinformatics, B2B and Ecommerce, Data Mining, EDA/Semiconductor
+  applications, Expert Systems, Finance, Intelligent Agents, Knowledge
+  Management, Mechanical CAD, Modeling and Simulation, Natural Language,
+  Optimization, Research, Risk Analysis, Scheduling, Telecom, and Web
+  Authoring just because these are the only things they happened to list.”
+
+  -- Kent Pitman, 2001
+
+(I'm not sure if these are important enought to me to put into the Common Lisp
+section proper.)
+
 -----------
 
 reStructuredText and rst.el
