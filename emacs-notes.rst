@@ -3400,7 +3400,7 @@ https://ideas.offby1.net/posts/development-environment-2021.html
   (not the same as `Common Lisp ASDF`_, which is "the de facto standard build
   facility for Common Lisp")
 
-.. _chesmoi: https://www.chezmoi.io/
+.. _chezmoi: https://www.chezmoi.io/
 .. _direnv: https://direnv.net/
 .. _asdf: https://asdf-vm.com
 .. _`Common Lisp ASDF`: https://common-lisp.net/project/asdf/
