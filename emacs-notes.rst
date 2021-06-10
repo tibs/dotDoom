@@ -3426,6 +3426,12 @@ Which references http://www.nhplace.com/kent/quoted.html#lisp-utility-caveat:
 (I'm not sure if these are important enought to me to put into the Common Lisp
 section proper.)
 
+2021-06-03
+==========
+
+* https://github.com/tecosaur/emacs-everywhere - a pane of emacs for typing
+  stuff that is to be inserted somewhere else
+
 -----------
 
 reStructuredText and rst.el

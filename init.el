@@ -195,4 +195,4 @@
 ;; off the behaviour I don't want, as follows.
 ;; And since this needs to be done before loading evil, the recommended place
 ;; to do it is in this file.
-(setq evil-respect-visual-line-mode nil)
+;;; (setq evil-respect-visual-line-mode nil)
