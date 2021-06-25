@@ -3432,6 +3432,13 @@ section proper.)
 * https://github.com/tecosaur/emacs-everywhere - a pane of emacs for typing
   stuff that is to be inserted somewhere else
 
+2021-06-25
+==========
+
+* https://christiantietze.de/posts/2021/06/emacs-trash-file-macos/ - make
+  dired put deleted files into the (Mac OS) trash, instead of just deleting
+  them.
+
 -----------
 
 reStructuredText and rst.el
