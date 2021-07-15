@@ -3439,6 +3439,15 @@ section proper.)
   dired put deleted files into the (Mac OS) trash, instead of just deleting
   them.
 
+2021-07-13
+==========
+
+* http://mbork.pl/2021-07-12_Counting_business_days - Counting business days
+  in Emacs, including allowing for public holidays
+
+* https://ruzkuku.com/texts/lesser-known.html - Some lesser known functions in
+  Emacs. There's a summary post at https://irreal.org/blog/?p=9822
+
 -----------
 
 reStructuredText and rst.el
