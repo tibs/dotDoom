@@ -3448,6 +3448,25 @@ section proper.)
 * https://ruzkuku.com/texts/lesser-known.html - Some lesser known functions in
   Emacs. There's a summary post at https://irreal.org/blog/?p=9822
 
+2021-08-05
+==========
+
+* https://xenodium.com/emacs-smarter-search-and-replace/ - smarter search and
+  replace. In particular embedding lisp snippets in ``replace-regexp`` queries.
+* http://mbork.pl/2021-06-28_Going_to_where_you_were_when_visiting_a_file -
+  Going to where you were when visiting a file, without using session.el.
+
+  An emacs-lisp function to jump to the word "HERE"::
+
+    (defun find-next-here-mark ()
+      "Find the string HERE in the current buffer."
+      (let ((case-fold-search nil))
+        (search-forward "HERE" nil t)))
+    (add-hook 'find-file-hook #'find-next-here-mark)
+
+* https://irreal.org/blog/?p=9861 - discussion of some custom commands, with
+  link to video.
+
 -----------
 
 reStructuredText and rst.el
@@ -3788,3 +3807,8 @@ contributor).
 
 * https://yitzchak.github.io/common-lisp-jupyter/ - Common Lisp for Jupyter
   notebooks.
+
+2021-08-05
+==========
+
+* https://quickdocs.org/ - Find Common Lisp libraries shipped by Quicklisp
