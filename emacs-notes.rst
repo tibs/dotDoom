@@ -3467,6 +3467,30 @@ section proper.)
 * https://irreal.org/blog/?p=9861 - discussion of some custom commands, with
   link to video.
 
+2021-08-10
+==========
+
+* https://archive.casouri.cat/note/2021/clean-exit/index.html - List Unsaved
+  Buffers Before Exiting Emacs::
+
+    (defun clean-exit ()
+      "Exit Emacs cleanly.
+    If there are unsaved buffer, pop up a list for them to be saved
+    before existing. Replaces ‘save-buffers-kill-terminal’."
+      (interactive)
+      (if (frame-parameter nil 'client)
+          (server-save-buffers-kill-terminal arg)
+        (if-let ((buf-list (seq-filter (lambda (buf)
+                                        (and (buffer-modified-p buf)
+                                              (buffer-file-name buf)))
+                                      (buffer-list))))
+            (progn
+              (pop-to-buffer (list-buffers-noselect t buf-list))
+              (message "s to save, C-k to kill, x to execute"))
+          (save-buffers-kill-emacs))))
+
+
+
 -----------
 
 reStructuredText and rst.el
@@ -3812,3 +3836,9 @@ contributor).
 ==========
 
 * https://quickdocs.org/ - Find Common Lisp libraries shipped by Quicklisp
+
+2021-08-10
+==========
+
+* http://www.lispology.com/ - interesting blog "Random thoughts about Common
+  Lisp"
