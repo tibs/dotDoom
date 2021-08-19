@@ -3489,6 +3489,20 @@ section proper.)
               (message "s to save, C-k to kill, x to execute"))
           (save-buffers-kill-emacs))))
 
+2021-08-19
+==========
+
+* https://hungyi.net/posts/use-emacs-tree-sitter-doom-emacs/ - How to use
+  tree-sitter in doom emacs to handle syntax highlighting.
+
+  https://tree-sitter.github.io/tree-sitter/ shows that Python and Ruby are
+  well supported, and markdown "fairly complete", but nothing as yet indicated
+  for reStructuredText.
+
+  Probably worth exploring, because the author claims this is more reliable
+  and faster parsing than the regexp-based default.
+
+  Also see https://github.com/tree-sitter for lots of parser repositories.
 
 
 -----------
