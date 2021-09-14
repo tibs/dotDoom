@@ -3504,6 +3504,24 @@ section proper.)
 
   Also see https://github.com/tree-sitter for lots of parser repositories.
 
+2021-09-14
+==========
+
+Not Emacs, but reminded about it from an Emacs post - syntax aware diff tool:
+https://github.com/Wilfred/difftastic
+
+::
+
+  ; cargo install difftastic
+
+-----------
+
+* https://hungyi.net/posts/use-emacs-tree-sitter-doom-emacs/ - Use
+  Emacs-Tree-Sitter for Highlighting in Doom Emacs
+
+  Looks rather interesting, and possibly quite fast/powerful
+
+* www.lispology.com - interesting posts on this blog
 
 -----------
 
@@ -3856,3 +3874,17 @@ contributor).
 
 * http://www.lispology.com/ - interesting blog "Random thoughts about Common
   Lisp"
+
+2021-09-14
+==========
+
+* https://www.reddit.com/r/Common_Lisp/comments/pkkhnd/fighting_with_slimes_auto_paren_balancing/
+  - Fighting with SLIME's auto paren balancing
+
+* https://www.reddit.com/r/Common_Lisp/comments/pjbldv/common_lisp_best_libraries_for_interfacing_with/
+  - [Common Lisp] Best Libraries for Interfacing with UNIX-like Operating Systems?
+
+* https://github.com/foretspaisibles/cl-rashell - Rashell – Resilient
+  replicant Shell Programming Library for Common Lisp - "defines primitives
+  which combine ease of use with the ability to write maintainable and
+  resilient programs leveraging the full power of Unix"
