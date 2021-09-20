@@ -3514,14 +3514,20 @@ https://github.com/Wilfred/difftastic
 
   ; cargo install difftastic
 
------------
-
 * https://hungyi.net/posts/use-emacs-tree-sitter-doom-emacs/ - Use
   Emacs-Tree-Sitter for Highlighting in Doom Emacs
 
   Looks rather interesting, and possibly quite fast/powerful
 
-* www.lispology.com - interesting posts on this blog
+2021-09-2008
+============
+
+* https://emacspeak.blogspot.com/2021/09/snarfing-string-within-delimiters-with.html
+  and the followup
+  https://emacspeak.blogspot.com/2021/09/generalize-snarf-tool-how-general-can.html -
+  a simple function that lets you snarf the contents within a pair of
+  delimiters. The second generalises the first to cases where point is not on
+  a pre-defined delimiter, but tries not to go *too* far in what it does.
 
 -----------
 
