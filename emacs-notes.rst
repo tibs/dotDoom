@@ -3529,8 +3529,19 @@ https://github.com/Wilfred/difftastic
   delimiters. The second generalises the first to cases where point is not on
   a pre-defined delimiter, but tries not to go *too* far in what it does.
 
+2021-09-21
+==========
+
+* https://svn.red-bean.com/repos/kfogel/trunk/.emacs - a very long .emacs
+  file, ``Copyright (C) 1992-2021 Karl Fogel``: "Since 1992, an 8,000 lines
+  long, old-style .emacs, still currently updated"
+
+  * https://www.red-bean.com/kfogel/
+  * https://www.rants.org/ - his blog
+
 -----------
 
+
 reStructuredText and rst.el
 ===========================
 
