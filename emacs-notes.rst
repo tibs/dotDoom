@@ -3539,6 +3539,87 @@ https://github.com/Wilfred/difftastic
   * https://www.red-bean.com/kfogel/
   * https://www.rants.org/ - his blog
 
+2021-09-28
+==========
+
+* https://github.com/otavioschwanck/doom-emacs-on-rails - a Doom Emacs setup
+  for working with Ruby/Rails. Includes link to a video demonstration.
+
+* https://github.com/alphapapa/taxy.el/tree/master/examples#deffy - deffy
+  shows definitions and top-level forms in an Elisp project or file.
+
+  Not *actually* sure if that's useful to me or not.
+
+* https://irreal.org/blog/?p=9993 - Iteration with Elisp. Mostly comments on /
+  reference to a video by someone else (https://www.youtube.com/watch?v=kk2W9krvNVg)
+  on ``cl-loop`` and other means of looping in elisp.
+
+* https://irreal.org/blog/?p=318 - Applying ``and`` and ``or`` in Emacs.
+  Actually leads to use of ``some`` and ``every``.
+
+* Symex - "An evil way to edit Lisp symbolic expressions ("symexes") as trees in Emacs."
+
+  Sounds like it should be worth investigating.
+
+    """Symex mode (pronounced sym-ex, as in symbolic expression) is a
+    vim-inspired way of editing Lisp code as trees. Entering symex mode allows
+    you to reason about your code in terms of its structure, similar to other
+    tools like paredit and lispy. But while those packages provide a curated
+    number of useful tree operations, symex mode treats the tree structure
+    explicitly so that arbitrary tree navigations and operations can be
+    described using an expressive DSL, and invoked conveniently via a
+    vim-style modal interface. As a consequence of this:
+
+    """Symex provides many novel features, such as "leap branch," "climb/descend
+    branch," "goto highest/lowest," "skip forward/backward", recursive indent,
+    recursive evaluate, among many others Implementing new structure-related
+    features in general is easy [1]. Keybindings are short and memorable
+
+    """At the moment, symex mode uses paredit, lispy, and evil-cleverparens to
+    provide much of its low level functionality. In the future, this layer of
+    primitives may be replaced with a layer that explicitly uses the abstract
+    syntax tree, for still greater precision."""
+
+  * https://countvajhula.com/2021/09/25/symex-el-edit-lisp-code-in-a-vim-like-way/ -
+    edit Lisp code in a Vim-like way. The blog post introducing it.
+  * https://github.com/countvajhula/symex.el - the github repository
+  * https://countvajhula.com/2021/09/25/the-animated-guide-to-symex/ - a
+    tutorial and guide to using symex
+
+* https://tech.toryanderson.com/2021/09/24/replacing-beacon.el-with-hl-line-flash/ -
+  customising the "highlight the current line" code to make it more (or
+  perhaps less!) noticeable.
+
+* https://github.com/hlissner/doom-emacs/blob/develop/modules/tools/editorconfig/README.org
+  - a Doom module to allow use of editorconfig files to customise the
+  indentation
+
+  * https://editorconfig.org/ - simple INI files to say what indentation
+    should be used (in this directory and below), specified by file name/type.
+    There is support from various tools/editors.
+
+  Not actually sure how I feel about this as an idea.
+
+  Linked from
+  https://www.reddit.com/r/DoomEmacs/comments/ptydy3/how_to_set_the_indentation_width/,
+  which was asking "How to set the indentation width?", and itself says:
+
+    Searching the doom repo, I found `this line`__, where the
+    ``evil-shift-width`` is always set to ``tab-width`` after a major mode
+    change. So for now, the only change needed is ``(setq-default tab-width
+    2)``, but I don't really understand the difference between ``setq`` and
+    ``setq-default``.
+
+.. __ https://github.com/hlissner/doom-emacs/blob/
+      f74debdea8042c3a19cf83781d9560bb467d86ce/modules/editor/evil/config.el#L97
+
+And not Emacs, but Lisp and shell:
+
+* https://github.com/rpav/ScriptL - allows writing commands in Common Lisp and
+  using them from the command line. It calls *a running lisp*, so I think the
+  idea is that you can change the lisp code in that running lisp and have it
+  take effect immediately.
+
 -----------
 
 
