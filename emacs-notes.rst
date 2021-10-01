@@ -3610,7 +3610,7 @@ https://github.com/Wilfred/difftastic
     2)``, but I don't really understand the difference between ``setq`` and
     ``setq-default``.
 
-.. __ https://github.com/hlissner/doom-emacs/blob/
+.. __: https://github.com/hlissner/doom-emacs/blob/
       f74debdea8042c3a19cf83781d9560bb467d86ce/modules/editor/evil/config.el#L97
 
 And not Emacs, but Lisp and shell:
@@ -3986,3 +3986,9 @@ contributor).
   replicant Shell Programming Library for Common Lisp - "defines primitives
   which combine ease of use with the ability to write maintainable and
   resilient programs leveraging the full power of Unix"
+
+2021-10-01
+==========
+
+* https://betterprogramming.pub/why-i-still-lisp-and-you-should-too-18a2ae36bd8 -
+  "Why I Still ‘Lisp’ (and You Should Too)" - a lovely little essay
