@@ -3620,6 +3620,22 @@ And not Emacs, but Lisp and shell:
   idea is that you can change the lisp code in that running lisp and have it
   take effect immediately.
 
+2021-10-12
+==========
+
+* https://github.com/ashok-khanna/parevil - "An experimental set of keybindings
+  to integrate ParEdit into Evil Mode. The general concept IMO is good (a
+  separate 'Paredit State'), the keybindings however are personal preference
+  and I am constantly tweaking them myself. No perfect solution, but see what
+  works best for you and customise to your hearts content :-)"
+* https://andreyorst.gitlab.io/posts/2021-09-30-why-is-paredit-is-so-un-emacsy/ -
+  Why is Paredit is so un-Emacsy? (a quick rant, sort of)
+* https://emacstil.com/til/2021/10/04/edit-text-everywhere-with-emacs/ - "Doom
+  Emacs comes with the emacs-everywhere support. With it, you can edit text
+  anywhere with Emacs."
+* http://mbork.pl/2021-10-04_Emacs_Lisp_book_-_status_update_and_plans -
+  latest state of his Emacs Lisp book
+
 -----------
 
 
