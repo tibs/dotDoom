@@ -3633,8 +3633,27 @@ And not Emacs, but Lisp and shell:
 * https://emacstil.com/til/2021/10/04/edit-text-everywhere-with-emacs/ - "Doom
   Emacs comes with the emacs-everywhere support. With it, you can edit text
   anywhere with Emacs."
-* http://mbork.pl/2021-10-04_Emacs_Lisp_book_-_status_update_and_plans -
-  latest state of his Emacs Lisp book
+* `2021-10-04 Emacs lisp book status`_ - latest state of his Emacs Lisp book
+
+.. _`2021-10-04 Emacs lisp book status`: http://mbork.pl/2021-10-04_Emacs_Lisp_book_-_status_update_and_plans
+
+2021-10-21
+==========
+
+* https://karthinks.com/software/avy-can-do-anything/ - "Avy can do anything"
+
+  "This is the first of two parts in a series on Avy, an Emacs package for
+  jumping around efficiently with the keyboard. Part 1 is about about
+  supercharging built-in customization to do anything with Avy, or some
+  approximation thereof. Part 2 will be a more technical (elisp-y) dive into
+  writing more complex features for your individual needs."
+
+2021-10-25
+==========
+
+* https://www.rousette.org.uk/archives/emacs-from-scratch-again/ - on going
+  from Doom to one's one emacs configuration again (mostly just for the fun of
+  it)
 
 -----------
 
