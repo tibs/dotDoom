@@ -3655,6 +3655,17 @@ And not Emacs, but Lisp and shell:
   from Doom to one's one emacs configuration again (mostly just for the fun of
   it)
 
+2021-11-01
+==========
+
+* https://cestlaz.github.io/post/using-emacs-80-vertico/ - video
+
+    "In today's video, we'll take a look at a few new completion frameworks
+    for Emacs. For years I've been using Ivy and have been very happy with it
+    but since I decided to rebuild my Emacs config from scratch I thought I'd
+    try the new kids on the block, Selectrum and Vertico along with some
+    support packages."
+
 -----------
 
 
