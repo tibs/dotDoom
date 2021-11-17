@@ -3666,6 +3666,20 @@ And not Emacs, but Lisp and shell:
     try the new kids on the block, Selectrum and Vertico along with some
     support packages."
 
+2021-11-15
+==========
+
+* https://irreal.org/blog/?p=10116 - Editing Mac OS text fields (with Emacs)
+* which refers to the actual article at
+  https://takeonrules.com/2021/11/13/send-anything-in-os-x-to-emacs-for-editing/
+  (it uses Hammerspoon)
+
+Also, not emacs:
+
+* https://batsov.com/articles/2021/11/14/display-git-configuration/ - nice
+  hints on how to display the current git configuration, including where it's
+  set (global, local, etc.)
+
 -----------
 
 
