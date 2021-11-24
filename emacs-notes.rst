@@ -3680,6 +3680,20 @@ Also, not emacs:
   hints on how to display the current git configuration, including where it's
   set (global, local, etc.)
 
+2021-11-24
+==========
+
+* https://www.masteringemacs.org/article/tree-sitter-complications-of-parsing-languages
+
+  Nice article. Talks about https://github.com/tree-sitter/tree-sitter and
+  also mentions https://www.emacswiki.org/emacs/ParEdit and the author's new
+  project, https://github.com/mickeynp/combobulate (still in alpha):
+
+    "Combobulate is an Emacs package that provides a standardized framework for
+    manipulating and navigating your source code using tree sitter's concrete
+    syntax tree. Combobulate is language agnostic and should work with little
+    modification almost all languages supported by tree sitter itself."
+
 -----------
 
 
