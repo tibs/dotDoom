@@ -3694,6 +3694,13 @@ Also, not emacs:
     syntax tree. Combobulate is language agnostic and should work with little
     modification almost all languages supported by tree sitter itself."
 
+2021-11-26
+==========
+
+* https://karthinks.com/software/batteries-included-with-emacs/ - some useful
+  functionalities that come with vanilla emacs. I think the "View mode" tip
+  might be particularly useful
+
 -----------
 
 
