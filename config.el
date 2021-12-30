@@ -3,7 +3,6 @@
 ;; Place your private configuration here! Remember, you do not need to run 'doom
 ;; sync' after modifying this file!
 
-
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets.
 (setq user-full-name "Tibs"
@@ -25,8 +24,18 @@
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
+;;
+;; Themes are from https://github.com/doomemacs/themes
+;; Note that doom-one-light seems to have started showing its block cursor as a
+;; relatively opaque block, which means one can't see the character behind it!
 ;(setq doom-theme 'doom-one-light)
-(setq doom-theme 'doom-one-light)
+;;
+;(setq doom-theme 'doom-opera-light)
+;(setq doom-theme 'doom-acario-light)
+;(setq doom-theme 'doom-nord-light)   ; Grey/green background
+;(setq doom-theme 'doom-opera-light)
+;(setq doom-theme 'doom-solarized-light)
+(setq doom-theme 'doom-tomorrow-day)
 
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
