@@ -27,13 +27,24 @@ https://github.com/hlissner/doom-emacs/blob/develop/docs/getting_started.org#wit
   $ # Installs clang
   $ xcode-select --install
 
-Install an appropriate Emacs - I went with emacs-plus as recommended:
+Install an appropriate Emacs. As of Dec 2021 the recommendation appears to be
+emacs-mac:
 
 .. code:: shell
 
-  $ brew tap d12frosted/emacs-plus
-  $ brew install emacs-plus
-  $ ln -s /usr/local/opt/emacs-plus/Emacs.app /Applications/Emacs.app
+  $ brew tap railwaycat/emacsmacport
+  $ brew install emacs-mac --with-modules
+  $ ln -s /usr/local/opt/emacs-mac/Emacs.app /Applications/Emacs.app
+
+.. note:: I originally went with emacs-plus as that used to be recommended,
+   but it seemed worth changing over as I was getting the flashing effects
+   mentioned in the Doom readme.
+
+   .. code:: shell
+
+     $ brew tap d12frosted/emacs-plus
+     $ brew install emacs-plus
+     $ ln -s /usr/local/opt/emacs-plus/Emacs.app /Applications/Emacs.app
 
 Once that is done, put this repository in place:
 
