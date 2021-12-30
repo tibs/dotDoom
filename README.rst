@@ -27,24 +27,33 @@ https://github.com/hlissner/doom-emacs/blob/develop/docs/getting_started.org#wit
   $ # Installs clang
   $ xcode-select --install
 
-Install an appropriate Emacs. As of Dec 2021 the recommendation appears to be
-emacs-mac:
+Install an appropriate Emacs. The recommendation used to be emacs-plus, and
+I've stayed with that (although I'm trying emacs 28 to see if that works and
+removes the flicker issue that is mentioned in the Doom README, and which I've
+definitely experienced - hence the ``emacs-plus@28``):
 
 .. code:: shell
 
-  $ brew tap railwaycat/emacsmacport
-  $ brew install emacs-mac --with-modules
-  $ ln -s /usr/local/opt/emacs-mac/Emacs.app /Applications/Emacs.app
+  $ brew tap d12frosted/emacs-plus
+  $ brew install emacs-plus@28
+  $ ln -s /usr/local/opt/emacs-plus/Emacs.app /Applications/Emacs.app
 
-.. note:: I originally went with emacs-plus as that used to be recommended,
-   but it seemed worth changing over as I was getting the flashing effects
-   mentioned in the Doom readme.
 
-   .. code:: shell
+**NOTE**
 
-     $ brew tap d12frosted/emacs-plus
-     $ brew install emacs-plus
-     $ ln -s /usr/local/opt/emacs-plus/Emacs.app /Applications/Emacs.app
+   As of Dec 2021 the recommendation (in the Doom `getting started, with
+   homebrew`_ guide)  is for emacs-mac, but I can't get that to
+   work with my use of emacsclient. This is a known problem - see
+
+   * https://www.reddit.com/r/emacs/comments/rphhze/running_emacsclient_t_open_in_terminal_instead_of/
+   * https://github.com/railwaycat/homebrew-emacsmacport/issues/52
+   * https://ylluminarious.github.io/2019/05/23/how-to-fix-the-emacs-mac-port-for-multi-tty-access/
+   * https://github.com/DarwinAwardWinner/mac-pseudo-daemon
+
+   Unfortunately, the mac-pseudo-daemon package doesn't seem to help with
+   use of emacsclient to create the initial GUI instance.
+
+.. _`Getting started, with homebrew`: https://github.com/hlissner/doom-emacs/blob/develop/docs/getting_started.org#with-homebrew
 
 Once that is done, put this repository in place:
 
