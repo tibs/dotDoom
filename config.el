@@ -567,6 +567,9 @@ If `word-wrap' is on, and `auto-fill-mode off, call
 ;;   is similar
 ;; * https://stackoverflow.com/questions/8204316/cant-change-cursor-color-in-emacsclient/19321267
 ;;   (which suggests the hack I'm using below)
+;;
+;; (I wonder if the fix to https://github.com/hlissner/doom-emacs/issues/4286 might be relevant?
+;; Although this was committed 21 Nov 2020, which seems a bit early...)
 
 (setq evil-default-cursor t) ;; Now evil takes the default cursors
 (set-cursor-color "blue") ;; Set it to an explicit colour (blue seems about right)
