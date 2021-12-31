@@ -33,9 +33,9 @@
 ;(setq doom-theme 'doom-opera-light)
 ;(setq doom-theme 'doom-acario-light)
 ;(setq doom-theme 'doom-nord-light)   ; Grey/green background
-;(setq doom-theme 'doom-opera-light)
+(setq doom-theme 'doom-opera-light)
 ;(setq doom-theme 'doom-solarized-light)
-(setq doom-theme 'doom-tomorrow-day)
+;(setq doom-theme 'doom-tomorrow-day)
 
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
@@ -548,3 +548,25 @@ If `word-wrap' is on, and `auto-fill-mode off, call
 ;; Always check whether we should end a file with a newline
 ;; (this appears to be a pain for the `autosave` file...'')
 ;(setq require-final-newline (quote ask))
+
+;; ===============================================================
+;;; ONGOING PROBLEMS
+
+;; At some time around 2021, my Doom Emacs cursor turned into a white block that
+;; hides the underlying text.
+;;
+;; Further research shows that this only happens when I start emacs via emacsclient.
+;; If I start emacs as a single process, all is well.
+;;
+;; Possible relevant posts:
+;;
+;; * https://emacs.stackexchange.com/questions/13291/emacs-cursor-color-is-different-in-daemon-and-non-daemon-modes
+;;   is historical, and although similar probably not relevant. But it does show that this
+;;   sort of problem has occurred before.
+;; * https://emacs.stackexchange.com/questions/46541/running-emacs-as-a-daemon-does-not-load-custom-set-faces
+;;   is similar
+;; * https://stackoverflow.com/questions/8204316/cant-change-cursor-color-in-emacsclient/19321267
+;;   (which suggests the hack I'm using below)
+
+(setq evil-default-cursor t) ;; Now evil takes the default cursors
+(set-cursor-color "blue") ;; Set it to an explicit colour (blue seems about right)
