@@ -36,7 +36,18 @@ definitely experienced - hence the ``emacs-plus@28``):
 
   $ brew tap d12frosted/emacs-plus
   $ brew install emacs-plus@28
+
+And then, on an Intel Mac:
+
+.. code:: shell
+
   $ ln -s /usr/local/opt/emacs-plus/Emacs.app /Applications/Emacs.app
+
+or on an M1 Mac:
+
+.. code:: shell
+
+  $ ln -s /opt/homebrew/opt/emacs-plus@28/Emacs.app /Applications
 
 
 **NOTE**
