@@ -3701,6 +3701,15 @@ Also, not emacs:
   functionalities that come with vanilla emacs. I think the "View mode" tip
   might be particularly useful
 
+2022-01-13
+==========
+
+https://www.rousette.org.uk/archives/hi-ho-hi-ho-it-s-back-to-doom-i-go/
+explaing how they've returned to Doom, and how some (useful) thinks had
+changed. I think the completion stuff might be of relevance ot me...
+
+Definitely worth a look.
+
 -----------
 
 
