@@ -3710,6 +3710,16 @@ changed. I think the completion stuff might be of relevance ot me...
 
 Definitely worth a look.
 
+2022-01-21
+==========
+
+Inserting things like ``®`` into emacs:
+
+* https://emacs.stackexchange.com/questions/5647/how-to-input-special-character-such-as-celsius-symbol-and-common-greek-letters
+  explains (implicitly) that I can use ``CTL-x 8 R``
+
+* At the console, ``OPT R`` will work on my Mac.
+
 -----------
 
 
