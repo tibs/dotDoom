@@ -3720,6 +3720,44 @@ Inserting things like ``®`` into emacs:
 
 * At the console, ``OPT R`` will work on my Mac.
 
+2022-02-14
+==========
+
+* https://ianyepan.github.io/posts/emacs-ide/ - an introduction to using LSP
+  in Emacs.
+
+2022-02-25
+==========
+
+Setting up for go.
+
+Uncomment the ``lsp`` and ``go +lsp`` lines in ``init.el``, and do ``doom
+upgrade``
+
+See https://www.evanlouie.com/gists/go/docs/doom-emacs-setup for information
+on how to install the tools that ``doom doctor`` says it is missing::
+
+  # minimum needed for go module to work
+  go install github.com/motemen/gore/cmd/gore@latest
+  go install github.com/stamblerre/gocode@latest
+  go install golang.org/x/tools/cmd/godoc@latest
+  go install golang.org/x/tools/cmd/goimports@latest
+  go install golang.org/x/tools/cmd/gorename@latest
+  go install golang.org/x/tools/cmd/guru@latest
+  go install github.com/cweill/gotests/...@latest
+  go install github.com/fatih/gomodifytags@latest
+
+  # gopls for (+lsp)
+  go install golang.org/x/tools/gopls@latest
+
+  # golangci
+  go install github.com/golangci/golangci-lint/cmd/golangci-lint@latest
+
+and also need to add ``~/go/bin`` to my PATH
+
+(``doom doctor`` still says it can't find ``gore``, so there won't be a Go
+repl, but I don't think that's an issue for me)
+
 -----------
 
 

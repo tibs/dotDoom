@@ -365,6 +365,21 @@ If `word-wrap' is on, and `auto-fill-mode off, call
 ;; I used to do
 ;; (define-key evil-normal-state-map (kbd "Q q") 'fill-paragraph-or-region)
 
+;; Try to stop C-z switching to emacs mode
+;; The advice at
+;;   https://github.com/hlissner/doom-emacs/blob/develop/docs/faq.org#my-new-keybinds-dont-work
+;; is useful here.
+;;
+;; Help on C-z says it is bound to evil-emacs-state in
+;;    code-review-mode-map <normal-state> C-z
+;;    evil-insert-state-map C-z
+;;    evil-motion-state-map C-z
+;;    magit-mode-map <normal-state> C-z
+(map! :map code-review-mode-map "C-z" nil)
+(map! :map evil-insert-state-map "C-z" nil)
+(map! :map evil-motion-state-map "C-z" nil)
+(map! :map magit-mode-map "C-z" nil)
+
 
 ;; NB: see https://github.com/hlissner/doom-emacs/blob/develop/docs/api.org
 ;; and in particular the section starting "These are side-by-side comparisons,
