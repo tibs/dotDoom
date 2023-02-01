@@ -3755,8 +3755,19 @@ on how to install the tools that ``doom doctor`` says it is missing::
 
 and also need to add ``~/go/bin`` to my PATH
 
-(``doom doctor`` still says it can't find ``gore``, so there won't be a Go
-repl, but I don't think that's an issue for me)
+That gist also references the actual Doom documentation for go support,
+at https://github.com/hlissner/doom-emacs/tree/develop/modules/lang/go
+
+In general, it seems worth looking at:
+
+* https://github.com/hlissner/doom-emacs/tree/master/modules/lang/go
+* https://github.com/hlissner/doom-emacs/tree/master/modules/lang/rust
+* https://github.com/hlissner/doom-emacs/tree/master/modules/lang/common-lisp
+* https://github.com/hlissner/doom-emacs/tree/master/modules/lang/markdown
+* https://github.com/hlissner/doom-emacs/tree/master/modules/lang/python
+* https://github.com/hlissner/doom-emacs/tree/master/modules/lang/ruby
+
+and other files in https://github.com/hlissner/doom-emacs/tree/master/modules/lang
 
 -----------
 

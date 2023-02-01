@@ -19,12 +19,12 @@
        ;;japanese
        ;;layout            ; auie,ctsrnm is the superior home row
 
-       :completion
-       company           ; the ultimate code completion backend
+;;       :completion
+       ;company           ; the ultimate code completion backend
        ;;helm              ; the *other* search engine for love and life
        ;;ido               ; the other *other* search engine...
        ;;ivy               ; a search engine for love and life
-       vertico           ; the search engine of the future
+       ;vertico           ; the search engine of the future
 
        :ui
        ;;deft              ; notational velocity for Emacs
@@ -153,14 +153,14 @@
        ;;ocaml             ; an objective camel
        ;;org               ; organize your plain life in plain text
        ;;php               ; perl's insecure younger brother
-       plantuml          ; EXPERIMENTAL ; diagrams for confusing people more
+       ;;plantuml          ; EXPERIMENTAL ; diagrams for confusing people more
        ;;purescript        ; javascript, but functional
        python            ; beautiful is better than ugly
        ;;qt                ; the 'cutest' gui framework ever
        ;;racket            ; a DSL for DSLs
        ;;raku              ; the artist formerly known as perl6
        ;;rest              ; Emacs as a REST client
-       rst               ; ReST in peace
+;;       rst               ; ReST in peace
        ;;(ruby +rails)     ; 1.step {|i| p "Ruby is #{i.even? ? 'love' : 'life'}"}
        rust              ; Fe2O3.unwrap().unwrap().unwrap().unwrap()
        ;;scala             ; java, but good
