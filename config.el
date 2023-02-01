@@ -138,6 +138,10 @@
 (define-key key-translation-map [(meta ?2)] [?€])
 (define-key key-translation-map [(meta ?3)] [?#])
 
+;; I use ® ("C-X 8 r") quite often. Emacs' binding for that is quite a mouthful,
+;; so let's define the standard Mac binding
+(define-key key-translation-map [(meta ?r)] [?®])
+
 ;; I should perhaps use map! for those - see
 ;; https://github.com/hlissner/doom-emacs/blob/develop/docs/api.org
 ;; and in particular the section starting "These are side-by-side comparisons,
