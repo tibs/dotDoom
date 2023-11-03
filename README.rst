@@ -28,14 +28,14 @@ https://github.com/hlissner/doom-emacs/blob/develop/docs/getting_started.org#wit
   $ xcode-select --install
 
 Install an appropriate Emacs. The recommendation used to be emacs-plus, and
-I've stayed with that (although I'm trying emacs 28 to see if that works and
-removes the flicker issue that is mentioned in the Doom README, and which I've
-definitely experienced - hence the ``emacs-plus@28``):
+I've stayed with that (since emacs-plus@28, the flicker issue that is
+mentioned in the Doom README, and which I'd definitely experienced, seems
+to be fixed)
 
 .. code:: shell
 
   $ brew tap d12frosted/emacs-plus
-  $ brew install emacs-plus@28
+  $ brew install emacs-plus
 
 And then, on an Intel Mac:
 
