@@ -35,7 +35,11 @@ to be fixed)
 .. code:: shell
 
   $ brew tap d12frosted/emacs-plus
-  $ brew install emacs-plus
+  $ brew install emacs-plus --with-native-comp --with-no-frame-refocus
+
+(see the `emacs-plus README`_ for the meaning of the switches)
+
+.. _`emacs-plus README`: https://github.com/d12frosted/homebrew-emacs-plus
 
 And then, on an Intel Mac:
 
