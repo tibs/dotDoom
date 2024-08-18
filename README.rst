@@ -75,16 +75,42 @@ Once that is done, put this repository in place:
 
 (this is done now so that the next step won't overwrite it).
 
-Then follow
-https://github.com/hlissner/doom-emacs/blob/develop/docs/getting_started.org#doom-emacs
-and install Doom Emacs itself:
+New (the Doom Emacs repository moved, and its main README now recommends
+installing to `~/.config/emacs`):
+
+        Then follow
+        https://github.com/doomemacs/doomemacs/blob/master/docs/getting_started.org#doom-emacs
+        and install Doom Emacs itself:
+
+        .. code:: shell
+
+             git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
+             ~/.config/emacs/bin/doom install
+
+        Make sure that `~/.config/emacs/bin` is on the PATH
+
+        See the rest of https://github.com/doomemacs/doomemacs for lots of other information.
+
+
+Old:
+
+        Then follow
+        https://github.com/hlissner/doom-emacs/blob/develop/docs/getting_started.org#doom-emacs
+        and install Doom Emacs itself:
+
+        .. code:: shell
+
+          git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
+          ~/.emacs.d/bin/doom install
+
+        See the rest of https://github.com/hlissner/doom-emacs for lots of other information.
+
+
+If Emacs won't start, you may need to reinstall:
 
 .. code:: shell
 
-  $ git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
-  $ ~/.emacs.d/bin/doom install
-
-See the rest of https://github.com/hlissner/doom-emacs for lots of other information.
+  brew reinstall emacs-plus --with-native-comp --with-no-frame-refocus
 
 Other stuff
 ===========
