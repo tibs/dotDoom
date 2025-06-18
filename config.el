@@ -191,6 +191,19 @@
 ;; Packages
 ;; ========
 
+;; Typst
+;;   brew install timymist
+;;   brew install tree-sitter
+;; In emacs itself, run treesit-install-language-grammar, using the
+;;    repository https://github.com/uben0/tree-sitter-typst
+;; Also see https://codeberg.org/meow_king/typst-ts-mode/wiki/Installation.md
+(use-package typst-ts-mode
+  :custom
+  (typst-ts-watch-options "--open")
+  (typst-ts-mode-enable-raw-blocks-highlight t)
+  :config
+  (keymap-set typst-ts-mode-map "C-c C-c" #'typst-ts-tmenu))
+
 ;; reStructuredText
 (after! rst
   ;; The default indentation is 3, which I'm not so keen on

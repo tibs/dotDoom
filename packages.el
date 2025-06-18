@@ -48,6 +48,9 @@
 ;; Use `:pin' to specify a particular commit to install.
 ;(package! builtin-package :pin "1a2b3c4d5e")
 
+;; Typst
+;; See https://codeberg.org/meow_king/typst-ts-mode/wiki/Installation.md
+(package! typst-ts-mode :recipe (:host codeberg :repo "meow_king/typst-ts-mode"))
 
 ;; Doom's packages are pinned to a specific commit and updated from release to
 ;; release. The `unpin!' macro allows you to unpin single packages...
