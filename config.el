@@ -204,6 +204,9 @@
   :config
   (keymap-set typst-ts-mode-map "C-c C-c" #'typst-ts-tmenu))
 
+(setq typst-ts-indent-offset 2)
+(setq typst-ts-mode-indent-offset 2)
+
 ;; reStructuredText
 (after! rst
   ;; The default indentation is 3, which I'm not so keen on
